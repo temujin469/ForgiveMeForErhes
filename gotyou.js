@@ -19,7 +19,7 @@ function runAway() {
   }
   setTimeout(function(){
     alert("Тийм гэж хэлээч өөр сонголт айхгуу угаасаа");
-    var audio = new Audio("music/song.mp3");
+    var audio = new Audio("music/song1.mp4");
     audio.loop = true;
     audio.play();
   }, 8000);
